@@ -1,0 +1,608 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#primary-header {
+    background: #F6F2ED;
+    padding: 29px 0px;
+}
+.header-logo {
+    margin-left: 35px;
+}
+.header-logo h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    cursor: pointer;
+}
+.header-logo span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: right;
+    display: block;
+    margin-right: 96px;
+    letter-spacing: 4px;
+    position: absolute;
+    color: #ED9700;
+}
+.header-logo span::before {
+    content: "";
+    width: 110px;
+    height: 1px;
+    border-top: 2px solid #ED9700;
+    position: relative;
+    background: black;
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+
+.header-menu{}
+.header-menu ul {
+    text-align: right;
+    margin-right: 71px;
+    list-style: none;
+}
+.header-menu ul li {
+    display: inline-block;
+    padding: 10px 16px;
+    list-style: none;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .2s;
+}
+.header-menu ul li a:hover {
+    color: #0071dc;
+}
+
+.home-mark {
+    color: #0071dc !important;
+    border-bottom: 2px solid #0071dc;
+    padding-bottom: 4px;
+}
+
+/* title-sec css */
+
+#title-sec {
+    background: #F6F2ED;
+    padding: 36px 0px;
+}
+#title-sec h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+#title-sec p {
+    font-size: 17px;
+    margin: 0px 243px;
+    display: block;
+    margin-top: 42px;
+}
+#title-sec button {
+    margin-top: 39px;
+    padding: 13px 26px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    transition: .3s;
+    
+}
+#title-sec button:hover{
+    background: #ED9700;
+    border-color:#ED9700;
+
+}
+#title-sec img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+/* about section css */
+
+#about-section {
+    background: #ffffff;
+    padding: 138px 0px;
+}
+.p-img{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+
+}
+.p-img img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.sing-img{}
+
+.content {
+    margin: 0px 56px;
+    margin-top: 80px;
+}
+#about-section .content h2 {
+    font-size: 22px;
+    margin-right: 80px;
+    line-height: 32px;
+}
+#about-section .content h1 {
+    font-size: 35px;
+    margin-top: 36px;
+}
+#about-section .content p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 31px;
+    font-weight: 400;
+}
+#about-section .content button {
+    width: 100%;
+    font-weight: 700;
+    transition: .3s;
+    margin-top: 30px;
+    padding: 11px 0px;
+}
+#about-section .content button:hover{
+    background: #ED9700;
+    border-color:#ED9700;
+
+}
+
+/* what-will-get-sec */
+
+#what-will-get-sec h1 {
+    font-size: 42px;
+}
+
+#what-will-get-sec p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 29px;
+}
+
+/* about-work-sec 0px 0px 9px 1px rgba(71, 67, 67, 0.564); */
+
+#about-work {
+    margin: 47px 0px;
+}
+
+.d-box {
+    margin-right: 35px;
+    padding: 29px 29px;
+    max-width: 350px;
+    box-shadow: 0px 2px 10px 0px rgb(51 51 51 / 15%);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.d-box:hover{
+    box-shadow: 0px 2px 20px 0px rgb(51 51 51 / 30%);
+}
+.d-box h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 47px;
+}
+
+.d-box p {
+    font-size: 17px;
+    color: gray;
+    margin-top: 21px;
+    line-height: 30px;
+}
+
+.col-md-4.d-box {}
+
+.d-box:nth-child(3) {
+    margin-right: 0px;
+    
+}
+
+.d-box:nth-child(1) {
+    margin-left: 0px;
+}
+
+
+/* project-contact-css */
+
+.container-wrapper {
+    background: #f2f2f2;
+    margin: 100px 0px;
+    border-radius: 10px;
+    position: relative;
+  
+}
+
+.contact-box {
+    padding: 34px 40px;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.contact-box h4 {
+    font-size: 17px;
+}
+
+.contact-box h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.contact-box button {
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 11px 24px;
+    margin-left: 55px;
+    transition: .3s;
+    z-index: 1;
+    position: relative;
+}
+
+.contact-box button:hover{
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+.contact-box img {
+    padding: 19px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+.container-wrapper::before {
+    content: "";
+    width: 370px;
+    height: 370px;
+    background: #e9d9d9ad;
+    position: absolute;
+    margin-left: -168px;
+    border-radius: 50%;
+    margin-top: -62px;
+}
+
+.container-wrapper::after {
+    content: "";
+    width: 250px;
+    height: 250px;
+    background: rgb(171, 240, 60);
+    position: absolute;
+    margin-left: 83%;
+    border-radius: 50%;
+    margin-top: -167px;
+}
+
+
+/* achivement-sec */
+
+#achivement-sec{
+    background: #f5f5f5;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 600;
+    position: relative;
+}
+
+.title h2::after {
+    content: "";
+    width: 121px;
+    background: red;
+    border: 1px solid blue;
+    position: absolute;
+    display: inline-block;
+    margin-left: -11%;
+    margin-top: 56px;
+}
+
+.title span {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+.e-box {
+    margin-top: 10px;
+    padding: 35px 53px;
+}
+
+.e-box .a-icon {
+    text-align: center;
+    font-size: 70px;
+    color: orange;
+}
+
+.e-box strong {
+    display: block;
+    text-align: center;
+    font-size: 46px;
+    color: #0071dc;
+}
+
+.e-box span {
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    color: #61CE70;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+.e-box-tow {
+    background: white;
+    margin-right: 30px;
+    box-sizing: border-box;
+    max-width: 30%;
+    padding: 25px 41px;
+    border-radius: 10px;
+    margin-top: 68px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 2px 10px 0px rgb(51 51 51 / 15%);
+}
+
+.e-box-tow:hover{
+    box-shadow: 0px 2px 20px 0px rgb(51 51 51 / 30%);
+
+}
+
+
+.e-box-tow:last-child {
+    margin-right: 0px;
+}
+
+.e-box-tow .icon {
+    font-size: 55px;
+    color: #1464af;
+}
+
+.e-box-tow h2 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.e-box-tow p {
+    font-size: 16px;
+    color: #61CE70;
+}
+
+
+/* portfolio-css */
+
+#portfolio-section{
+    padding-top: 75px;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .portfolio-h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .portfolio-row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .portfolio-row,
+  .portfolio-row> .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .portfolio-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn-p {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn-p:hover {
+    background-color: #ddd;
+  }
+  
+  .btn-p.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+/* review-section */
+
+#review-section{
+    padding: 50px 0px;
+}
+
+.title .review-title {
+    font-size: 31px;
+}
+
+.title .review-para {
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 31px;
+    text-align: left;
+}
+
+.title .review-title::after {
+    margin-left: -32%;
+    margin-top: 16%;
+    width: 81px;
+}
+
+
+.client-review p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.client-review {
+    background: #f5f5f5;
+    box-sizing: border-box;
+    margin-right: 22px;
+    max-width: 264px;
+    padding: 26px 45px;
+    border-radius: 10px;
+}
+
+.client-review:last-child {
+    margin-right: 0px;
+}
+
+
+/* contact-css */
+
+#contact-section h3 {
+    font-size: 37px;
+    font-weight: 500;
+}
+
+
+.phon-email span {
+    font-size: 36px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.phon-email h6 {
+    display: inline-block;
+    font-size: 23px;
+    margin-left: 25px;
+    margin-top: 14px;
+    position: absolute;
+}
+
+.phon-email {
+    margin: 35px 0px;
+}
+
+.phon-email p {
+    margin-top: 11px;
+}
+
+/* contact-section-css */
+#contact-section{
+    background: #f5f5f5;
+    padding: 50px 0px;
+}
+
+.contact-btn {
+    font-weight: 700;
+    padding: 9px 50px  !important;
+}
+
+.contact-btn:hover {
+    background: #ED9700;
+    color: white;
+    border-color: #ED9700;
+}
+
+
+/* footer css */
+
+
+footer#primary-footer {
+    background: #0071dc;
+    color: white;
+    padding: 37px 0px;
+}
+.primary-footer footer-text{}
+
+ul.footer-menu {
+    list-style: none;
+    margin-left: -76px;
+    text-align: left;
+    margin-top: 3px;
+}
+ul.footer-menu li {
+    display: inline-block;
+    color: white;
+    padding: 0px 11px;
+}
+
+ul.footer-menu li a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+p.footer-text::after {
+    content: "";
+    width: 15px;
+    height: 1px;
+    border-top: 2px solid white;
+    position: relative;
+    background: black;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    margin-left: 7px;
+}
+
+ul.footer-menu li .footer-mark::after {
+    content: "";
+    width: 1px;
+    height: 15px;
+    border-left: 2px solid white;
+    position: relative;
+    background: black;
+    display: inline-block;
+    margin-right: -14px;
+    margin-bottom: -4px;
+    margin-left: 14px;
+}
